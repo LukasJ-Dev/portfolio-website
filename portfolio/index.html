@@ -8,24 +8,97 @@
     <title>Projects</title>
 </head>
 <body>
+
     <nav>
         <h1>Lukas</h1>
+        <input type="checkbox" class="nav-menu">
+        
         <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">CV</a>
-            <a href="#">Contacts</a>
+            <a href="../index.html">Home</a>
+            <a href="../about">About</a>
+            <a href="#" class="active">Projects</a>
+            <a href="../cv">CV</a>
+            
         </div>
+        
     </nav>
+
     <main class="container">
-        <h1>Portfolio</h1>
+        <br>
+        <h1>Projects</h1>
+        <br>
         <div class="card-container">
-            <div class="card">
-                <h2>Yahtzee Game</h2>
+
+            <div class="card yahtzee-card">
+                <img src="../img/yatzy-img.png" alt="Image of my yatzhee game">
+                    <div class="container">
+                        <h2>Yahtzee Game</h2>
+                        <p>Yahtzee was a school project developed in react.</p>
+                    </div>
+                
+
+                <label for="yahtzee-read-more" class="read-more-btn">Read more</label>
+                <input type="checkbox" id="yahtzee-read-more" class="read-more" name="yahtzee-read-more" value="yahtzee-read-more">
+
+                <div class="modal-popup yahtzee-modal">
+                    <div class="modal-card">
+                        <img src="../img/yatzy-img.png" alt="Image of my yatzhee game">
+                            <div class="container">
+                                <h2>Yahtzee Game</h2>
+                                <p>Yahtzee was developed as a school project in webbutveckling 1 and gränssnittdesign during the last year of gymnasium. 
+                                    The game is developed with react and you can play up to 9 players. The UI is minimalistic and uses CSS without any frameworks.
+                                </p>
+                            </div>
+
+                    </div>
+                </div>
             </div>
+            <div class="card">
+                <img src="../img/snake-img.png" alt="Image of my snake game">
+                    <div class="container">
+                        <h2>LWJGL Snake</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, tempore?.</p>
+                    </div>
+                
+
+                    <label for="snake-read-more" class="read-more-btn">Read more</label>
+                    <input type="checkbox" id="snake-read-more" class="read-more" name="snake-read-more" value="snake-read-more">
+    
+                    <div class="modal-popup snake-modal">
+                    <div class="modal-card">
+                        <img src="../img/snake-img.png" alt="Image of my snake game">
+                            <div class="container">
+                                <h2>LWJGL Snake</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cumque minima iste quidem dolore mollitia similique eveniet officia. In nemo ab nesciunt ratione aperiam repellendus consequuntur animi laboriosam. Eum voluptate libero illum itaque consectetur quisquam nisi consequatur deleniti vero, dolorum dolores quo corrupti ex! Facere, consectetur. Neque consectetur natus obcaecati consequatur iste, nulla enim distinctio aliquam est temporibus cupiditate vel! Voluptate deleniti, adipisci maiores dolorem rem distinctio magnam nostrum! Neque facere architecto asperiores labore provident debitis autem quaerat sed porro blanditiis minima, sapiente vero, eius fugiat, cumque mollitia commodi voluptatibus. Fugit consequatur, sed officia illo laboriosam magnam blanditiis sint quos!</p>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card todolist-card">
+                <img src="../img/todolist-img.png" alt="Image of my todolist app">
+                    <div class="container">
+                        <h2>Vanilla JS Todolist App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, tempore?.</p>
+                    </div>
+                
+
+                    <label for="todolist-read-more" class="read-more-btn">Read more</label>
+                    <input type="checkbox" id="todolist-read-more" class="read-more" name="todolist-read-more" value="todolist-read-more">
+    
+                <div class="modal-popup todolist-modal">
+                    <div class="modal-card">
+                        <img src="../img/todolist-img.png" alt="Image of my todolist app">
+                            <div class="container">
+                                <h2>Vanilla JS Todolist App</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cumque minima iste quidem dolore mollitia similique eveniet officia. In nemo ab nesciunt ratione aperiam repellendus consequuntur animi laboriosam. Eum voluptate libero illum itaque consectetur quisquam nisi consequatur deleniti vero, dolorum dolores quo corrupti ex! Facere, consectetur. Neque consectetur natus obcaecati consequatur iste, nulla enim distinctio aliquam est temporibus cupiditate vel! Voluptate deleniti, adipisci maiores dolorem rem distinctio magnam nostrum! Neque facere architecto asperiores labore provident debitis autem quaerat sed porro blanditiis minima, sapiente vero, eius fugiat, cumque mollitia commodi voluptatibus. Fugit consequatur, sed officia illo laboriosam magnam blanditiis sint quos!</p>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     </main>
-    <footer></footer>
 </body>
 </html>
